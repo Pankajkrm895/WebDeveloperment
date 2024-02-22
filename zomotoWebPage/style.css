@@ -1,0 +1,322 @@
+body{
+    margin:0;
+}
+header{
+    width:100%;
+    height: 70px;
+    background-color: rgb(27, 21, 21);
+}
+#brand{
+    float:left;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color:white;
+    margin-top: 12px;
+    margin-left: 15px
+}
+#social{
+    float: right;
+    margin-top: 5px;
+    margin-right: 15px;
+   
+}
+.slogo {
+    width: 50px;
+}
+#search{
+    height:400px;
+    background-image: url(./image/food-wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#logo{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 45%;
+    background-color:#edd0c0;
+    /* animation: revolve 5s infinite; */
+
+}
+@keyframes revolve {
+    0% {
+        margin-left: 2%;
+        transform: rotate(30deg);
+    }
+    25%{
+        margin-left: 20%;
+        transform: rotate(90deg);
+    }
+    50%{
+        margin-left: 40%;
+        transform: rotate(180deg);
+    }
+    75%{
+        margin-left: 60%;
+        transform: rotate(270deg);
+    }
+    100%{
+        margin-left: 80%;
+        transform: rotate(360deg);
+    }
+}
+#logo span {
+        position: absolute;
+        margin-top: 13%;
+        margin-left: 20%;
+        font-size: 85px;
+}
+
+
+
+#heading{
+        position: absolute;
+        /* top: 50%;
+        right: 32%; */
+        margin-top: 15%;
+        margin-left:33%;
+        font-size: 44px;
+        font-weight: bold;
+        color: rgb(253, 249, 249);
+}
+#dropdawn{
+        width: 550px;
+        height: 40px;
+        margin-top:21%;
+        margin-left: 30%;
+        position: absolute;
+      
+}
+#select1{
+        height: 40px;
+            width: 232px;
+            font-size: 20px;
+            text-align: center;
+}
+#select2{
+        height: 40px;
+            width: 313px;
+            font-size: 20px;
+            text-align: center;
+}
+#quick-search{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+#quick-span1:hover{
+    font-size: 40px;
+}
+#quick-span1{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: serif;
+        line-height: 50px;
+}
+#quick-span2{
+    color: grey;
+}
+#mainBox{
+    display:flex;
+    flex-wrap:wrap;
+}
+#tileContainer{
+    width:300px;
+    height:150px;
+    margin-top:2%;
+    margin-right: 1%;
+    display:flex;
+    box-shadow: 10px 15px 10px rgb(37, 35, 35);
+    animation: dance 5s infinite;
+}
+@keyframes dance{
+  
+    0% {
+            transform: rotate(-5deg);
+        } 
+    25% {
+              transform: rotate(0deg);
+        }
+    40%{
+        transform: scale(1.1);
+    }
+    50% {
+              transform: rotate(5deg);
+        }  
+    75% {
+              transform: rotate(0deg);
+       } 
+    100% {
+              transform: rotate(-5deg);
+       }
+}
+#tileContainer:hover{
+    transform: scale(1.1);
+    /* transform: skewX(39deg); */
+    /* transform: skewY(30deg); */
+    /* transform: rotateY(30deg); */
+    /* translate: 100px 200px; */
+}
+.tileComponent1{
+    width:52%;
+}
+.tileComponent1 img{
+        height: 100%;
+        width: 100%;
+}
+.tileComponent2{
+    margin-left: 3%;
+    margin-top: 5%;
+}
+.compHeading{
+    font-size: 27px;
+    font-weight: bold;
+
+}
+.compHeading a {
+    text-decoration: none;
+    color: black;
+}
+.compSubHeading{
+    color:grey;
+    font-size: 18px;
+}
+
+footer{
+    background-color: #3c2632;
+}
+.footText{
+    text-align: center;
+    color:white;
+    font-size:20px;
+    margin-top: 1%;
+}
+.footDiv{
+    display: inline-block;
+    width:32%;
+    border-right:1px solid white;
+    text-align: center;
+}
+
+
+
+.footborder{
+    border-right:none;
+}
+ul{
+    list-style-type:none;
+    font-size: 22px;
+}
+@media  screen and (max-width:1600px) {
+    body{
+        background-color: rgb(222, 245, 168);
+    }
+}
+@media screen and (max-width:1400px){
+    body{
+        background-color: rgb(244, 207, 187);
+    }
+        #heading {
+            margin-top: 17%;
+            margin-left: 32%;
+        }
+    
+        #dropdawn {
+            margin-top: 23%;
+            margin-left:29%;
+        }
+        #tileContainer{
+            width:32%
+        }
+}
+@media screen and (max-width:1100px) {
+    body {
+        background-color: rgb(187, 244, 238);
+    }
+    #heading{
+        margin-top: 19%;
+        margin-left: 28%;
+    }
+    #dropdawn{
+        margin-top: 26%;
+        margin-left:24%;
+    }
+}
+@media screen and (max-width:945px) {
+    body {
+        background-color: rgb(191, 187, 244);
+    } 
+    #heading {
+         margin-top: 25%;
+         margin-left: 26%;
+     }
+    
+     #dropdawn {
+         margin-top: 33%;
+         margin-left: 22%;
+     }
+     #tileContainer{
+        width: 49%;
+     }
+        
+}@media screen and (max-width:800px) {
+    body {
+        background-color: rgb(238, 187, 244);
+    }
+        #heading {
+                margin-top: 30%;
+                 margin-left: 17%;
+                    font-size: 40px;
+        }
+    
+        #dropdawn {
+            margin-top: 41%;
+            margin-left:16%;
+        }
+        #select1{
+              width:180px;
+        }
+        #select2{
+            width:303px ;
+        }
+        #logo{
+            margin-left: 40%;
+        }
+        #tileContainer{
+            width: 80%;
+        }
+}
+@media screen and (max-width:600px) {
+    body {
+        background-color: rgb(244, 187, 192);
+    }
+    #search{
+       background-size:cover;
+    }
+    header{
+        width:100%;
+        margin-right: 0;
+    }
+    #dropdawn {
+        margin-top: 48%;
+        margin-left: 12%;
+    }
+    #select1{
+        width: 190px;
+            font-size: 17px;
+    }
+    #select2{
+    font-size: 17px;
+        width: 280px;
+    }
+    #heading{
+        font-size: 37px;
+        margin-top: 36%;
+    }
+    #tileContainer{
+        width: 100%;
+    }
+}

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./bootstrat3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Boottrap3</title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                   
+                </button>
+                <a class="navbar-brand" href="#">Developer Funnel</a>
+            </div>
+            <div id="myNav" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#"><span class="glyphicon glyphicon-user"></span> Sign-up</a>
+                    </li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log"></span>  Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+                   <!-- jumbotron-section -->
+        <div class="jumbotron">
+            <h1>Bootstrap</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, et! Neque alias natus quisquam nisi molestiae. Quaerat voluptatem error amet nemo magni officia hic, assumenda corporis laborum saepe. Consequatur, id accusamus. Autem, vero earum! Et labore aliquid est autem ullam reiciendis similique? Facere iure corrupti voluptate possimus aspernatur consequuntur obcaecati, qui magni. Pariatur adipisci placeat nemo rem debitis suscipit, doloribus quis quo laudantium alias, unde obcaecati! Expedita quas eaque atque?</p>
+            <button class="btn btn-primary" data-target="#devModal" data-toggle="modal">click me!</button>
+            <button class="btn btn-success">click me!</button>
+            <button class="btn btn-warning">click me!</button>
+            <button class="btn btn-danger">click me!</button>
+            <button class="btn btn-info">click me!</button>
+        </div>
+
+                     <!-- Modal -->       
+
+                  <div id="devModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+
+                            <button type="button" class="close"
+                            data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">Popup Modal</h3>
+                        </div>
+                        <div class="modal-body">
+                            <p>Modal Text</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button"
+                            class="btn btn-danger" data-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                      <!-- Carousel -->
+        
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1" ></li>
+                <li data-target="#myCarousel" data-slide-to="2" ></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="../food-wallpaper.png" alt="fw" class="img-slider"/>
+                </div>
+                <div class="item">
+                    <img src="../nightlife.png" alt="nightlife" class="img-slider"/>
+                </div>
+                 <div class="item">
+                    <img src="../amsterdam2.jpeg" alt="amsterdam" class="img-slider"/>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+        <!-- grid-section -->
+        <div class="row">
+            <div id="first" class="col-lg-2 col-md-3 col-sm-4 col-xs-6"></div>
+            <div id="second" class="col-lg-2 col-md-3 col-sm-4 col-xs-6"></div>
+            <div id="third" class="col-lg-2 col-md-3 col-sm-4 col-xs-6"></div>
+            <div id="fourth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6"></div>
+            <div id="fifth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6"></div>
+            <div id="sixth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6"></div>
+            <div id="seventh" class="col-lg-2 col-md-3 col-sm-4 col-xs-6"></div>
+        </div>
+        <hr/>
+
+        <!-- Img side by side -->
+        <div class="row">
+            <div class="col-md-4">
+                <img src="../food-wallpaper.png" alt="fw" class="img-responsive myimg">
+            </div>
+            
+            <div class="col-md-4">
+                <img src="../food-wallpaper.png" alt="fw"  class="img-responsive myimg">
+            </div>
+            <div class="col-md-4">
+                <img src="../food-wallpaper.png" alt="fw"  class="img-responsive myimg">
+            </div>
+        </div>
+
+        <hr/>
+
+        <!-- glyphicon-section -->
+
+        <span class="glyphicon glyphicon-cloud sky"></span>
+        <span class="glyphicon glyphicon-trash delete"></span>
+        <span class="glyphicon glyphicon-edit edit"></span>
+        
+        <hr/>
+           
+                  <!-- panel -->
+
+       <div class="panel panel-primary">
+         <div class="panel-heading">About label</div>
+         <div class="panel-body">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae quo eligendi tempore porro. Fugit, accusantium maiores praesentium quisquam voluptate enim sint dignissimos vitae error! Eveniet, eos nihil! Inventore aut natus, fugiat, aperiam, recusandae commodi nobis ullam voluptates temporibus suscipit iure aliquam. Labore debitis ipsa provident recusandae mollitia minima voluptate nihil praesentium numquam in soluta aliquam veniam cupiditate sit quos, rem doloribus expedita? Necessitatibus praesentium officiis placeat labore saepe itaque voluptatem esse harum ipsam a, voluptas aspernatur doloremque molestiae! Adipisci, ipsa omnis. Dignissimos quod et officiis iure natus ullam culpa praesentium earum maxime. Magnam dolorem quod eos nostrum nulla nihil odio.</p>
+            <table class="table table-hover table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Roll</th>
+                    <th>Name</th>
+                    <th>City</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="success">
+                    <td>1001</td>
+                    <td>Pankaj  </td>
+                    <td>Bokaro</td>
+                </tr>
+                <tr>
+                    <td>1002</td>
+                    <td>Ajeet  </td>
+                    <td>Dehli</td>
+                </tr><tr>
+                    <td>1003</td>
+                    <td>Himanshu  </td>
+                    <td>Tata</td>
+                </tr><tr>
+                    <td>1004</td>
+                    <td>Avishek   </td>
+                    <td>Dhanbad</td>
+                </tr>
+            </tbody>
+        </table>
+         </div>
+       </div>
+
+       <div class="panel panel-danger">
+         <div class="panel-heading">About label</div>
+         <div class="panel-body">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae quo eligendi tempore porro. Fugit, accusantium maiores praesentium quisquam voluptate enim sint dignissimos vitae error! Eveniet, eos nihil! Inventore aut natus, fugiat, aperiam, recusandae commodi nobis ullam voluptates temporibus suscipit iure aliquam. Labore debitis ipsa provident recusandae mollitia minima voluptate nihil praesentium numquam in soluta aliquam veniam cupiditate sit quos, rem doloribus expedita? Necessitatibus praesentium officiis placeat labore saepe itaque voluptatem esse harum ipsam a, voluptas aspernatur doloremque molestiae! Adipisci, ipsa omnis. Dignissimos quod et officiis iure natus ullam culpa praesentium earum maxime. Magnam dolorem quod eos nostrum nulla nihil odio.</p>
+         </div>
+       </div>
+
+       <div class="panel panel-success">
+         <div class="panel-heading">About label</div>
+         <div class="panel-body">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae quo eligendi tempore porro. Fugit, accusantium maiores praesentium quisquam voluptate enim sint dignissimos vitae error! Eveniet, eos nihil! Inventore aut natus, fugiat, aperiam, recusandae commodi nobis ullam voluptates temporibus suscipit iure aliquam. Labore debitis ipsa provident recusandae mollitia minima voluptate nihil praesentium numquam in soluta aliquam veniam cupiditate sit quos, rem doloribus expedita? Necessitatibus praesentium officiis placeat labore saepe itaque voluptatem esse harum ipsam a, voluptas aspernatur doloremque molestiae! Adipisci, ipsa omnis. Dignissimos quod et officiis iure natus ullam culpa praesentium earum maxime. Magnam dolorem quod eos nostrum nulla nihil odio.</p>
+         </div>
+       </div>
+       <div class="panel panel-warning">
+         <div class="panel-heading">About label</div>
+         <div class="panel-body">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae quo eligendi tempore porro. Fugit, accusantium maiores praesentium quisquam voluptate enim sint dignissimos vitae error! Eveniet, eos nihil! Inventore aut natus, fugiat, aperiam, recusandae commodi nobis ullam voluptates temporibus suscipit iure aliquam. Labore debitis ipsa provident recusandae mollitia minima voluptate nihil praesentium numquam in soluta aliquam veniam cupiditate sit quos, rem doloribus expedita? Necessitatibus praesentium officiis placeat labore saepe itaque voluptatem esse harum ipsam a, voluptas aspernatur doloremque molestiae! Adipisci, ipsa omnis. Dignissimos quod et officiis iure natus ullam culpa praesentium earum maxime. Magnam dolorem quod eos nostrum nulla nihil odio.</p>
+         </div>
+       </div>
+       <div class="panel panel-info">
+         <div class="panel-heading">About label</div>
+         <div class="panel-body">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae quo eligendi tempore porro. Fugit, accusantium maiores praesentium quisquam voluptate enim sint dignissimos vitae error! Eveniet, eos nihil! Inventore aut natus, fugiat, aperiam, recusandae commodi nobis ullam voluptates temporibus suscipit iure aliquam. Labore debitis ipsa provident recusandae mollitia minima voluptate nihil praesentium numquam in soluta aliquam veniam cupiditate sit quos, rem doloribus expedita? Necessitatibus praesentium officiis placeat labore saepe itaque voluptatem esse harum ipsam a, voluptas aspernatur doloremque molestiae! Adipisci, ipsa omnis. Dignissimos quod et officiis iure natus ullam culpa praesentium earum maxime. Magnam dolorem quod eos nostrum nulla nihil odio.</p>
+         </div>
+       </div>
+             
+       <!-- table  section-->
+        
+    <table class="table table-hover table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Roll</th>
+                    <th>Name</th>
+                    <th>City</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="success">
+                    <td>1001</td>
+                    <td>Pankaj  </td>
+                    <td>Bokaro</td>
+                </tr>
+                <tr>
+                    <td>1002</td>
+                    <td>Ajeet  </td>
+                    <td>Dehli</td>
+                </tr><tr>
+                    <td>1003</td>
+                    <td>Himanshu  </td>
+                    <td>Tata</td>
+                </tr><tr>
+                    <td>1004</td>
+                    <td>Avishek   </td>
+                    <td>Dhanbad</td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- image-section -->
+        <img src="../food-wallpaper.png" alt="fw" class="img-responsive">
+   </div>
+</body>
+</html>
+
+
+
+
+<!-- <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Developer Funnel</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#"><span class="glyphicon glyphicon-user"></span> Sign-up</a>
+                </li>
+                <li><a href="#"><span class="glyphicon glyphicon-log"></span>  Login</a></li>
+            </ul>
+        </div>
+    </nav> -->
